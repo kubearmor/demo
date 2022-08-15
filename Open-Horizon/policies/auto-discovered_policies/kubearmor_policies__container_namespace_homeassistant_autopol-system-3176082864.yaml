@@ -385,5 +385,5 @@ spec:
     - path: /package/admin/s6-linux-init-1.0.7.3/command/s6-linux-init
   selector:
     matchLabels:
-      container: homeassistant
+      kubearmor.io/container.name: homeassistant
   severity: 1

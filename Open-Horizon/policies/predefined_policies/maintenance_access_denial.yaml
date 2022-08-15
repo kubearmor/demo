@@ -9,7 +9,7 @@ spec:
   - WARNING
   selector:
     matchLabels:
-      container: homeassistant
+      kubearmor.io/container.name: homeassistant
   process:
     matchDirectories:
     - dir: /sbin/
